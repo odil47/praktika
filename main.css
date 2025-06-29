@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+.header {
+    background-image: url(./123.png)
+}
+
+
+.header-wrapper {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.heder-right-icon {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-link {
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    transition: 300ms all ease;
+}
+
+.header-link:hover {
+    color: #F57520;
+    transition: 300ms all ease;
+}
+
+
+.heade-hero {
+    padding-bottom: 236px;
+    margin-top: 100px;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    flex-direction: column;
+    color: #fff;
+    width: 679px;
+}
+
+.hero-item {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 123%;
+    letter-spacing: 2%;
+
+}
+
+.hero-text {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 1%;
+}
+
+.hero-btn {
+    width: 180px;
+    padding: 18px 0;
+    background-color: #F57520;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    transition: 300ms all ease;
+
+}
+
+.hero-btn:hover {
+    transition: 300ms all ease;
+    border-radius: 0px;
+    color: #F57520;
+    background-color: #fff;
+}
+
+.main-section {
+    background-color: slategray;
+}
+
+
+.card-img {}
+
+.card-data {
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+
+}
+
+.card {
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 50px;
+    background: #101010;
+    width: 400px;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 40px;
+}
+
+.card-data {
+
+    padding: 10px 27px;
+}
+
+.card-text {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 1%;
+    padding: 0 58px 80px 27px;
+
+}
+label{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.main-section2-text{
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 123%;
+    letter-spacing: 5%;
+    color: #fff;
+    width: 600px;
+}
+.section2{
+    display: flex;
+    background: #F57520;
+    flex-wrap: wrap;
+    
+}
+.main-image{
+    width: 1000;
+    margin-left: 335px;
+}
+.main-input{
+    width: 615px;
+    margin-top: 100px;
+}
+.main-input-mini{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+}
+.main-input-big{
+    width: 615px;
+    border-radius: 10px;
+    height: 154px;
+    border: none;
+}
+.kompaniya{
+    width: 615px;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #F57520;
+    border: none;
+    background-color: #fff;
+}
+.main-sec-input-text-img{
+    display: flex;
+}
+.main-input-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.mian-sec2-img{
+    width: 790px;
+    height: 600px;
+}
+.main-sec3-map{
+    width: 100%;
+}
+.footer{
+    background-color: #000;
+    padding: 50px 0;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.footer-text-top{
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 1%;
+    color: #fff;
+}
+.footer-text-bottom{
+    color: #fff;
+}
+.footer-img-nomer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer-imge{
+    width: 87px;
+    height: 49px;
+}
